@@ -1,13 +1,6 @@
 var input = ["luis", "hector", "selena", "emmanuel", "amish", "anna", "andrea", "rawle"];
 
-input.sort(function(a, b) {
-    if (a > b)
-        return 1;
-    else if (a < b)
-        return -1;
-    else
-        return 0;
-});
+input.sort();
 
 for (var i = 0; i < input.length - 1; i++) {
     var name = input[i];
